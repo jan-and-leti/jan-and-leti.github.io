@@ -1,471 +1,548 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Leti & Ján</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
 
-    <title>Leti & Ján</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+  <!--
+	//////////////////////////////////////////////////////
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+	FREE HTML5 TEMPLATE
+	DESIGNED & DEVELOPED by FREEHTML5.CO
 
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	//////////////////////////////////////////////////////
+	 -->
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
 
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Comic+Neue:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+	<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"> -->
 
-<body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
-    </div>
-    <!-- Spinner End -->
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h1 class="m-0">Leti & Ján</h1>
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
-                <a href="project.html" class="nav-item nav-link">Projects</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu bg-light m-0">
-                        <a href="feature.html" class="dropdown-item">Features</a>
-                        <a href="quote.html" class="dropdown-item">Free Quote</a>
-                        <a href="team.html" class="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
-            </div>
-        </div>
-    </nav>
-    <!-- Navbar End -->
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
 
-    <div class="container-fluid p-0 wow fadeIn">
-        <img class="row w-100" src="img/leti-jan-1.jpeg" alt="Image">
-    </div>
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-    <!-- Facts Start -->
-    <div class="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="img/leti-jan-8.jpeg">
-        <div class="container py-5">
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-        </div>
-    </div>
-    <!-- Facts End -->
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
-        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Make Your Home Like Garden</h1>
-                                    <a href="" class="btn btn-primary py-sm-3 px-sm-4">Explore More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-7">
-                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Create Your Own Small Garden At Home</h1>
-                                    <a href="" class="btn btn-primary py-sm-3 px-sm-4">Explore More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
-    <!-- Carousel End -->
+	<script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
 
-    <!-- Top Feature Start -->
-    <div class="container-fluid top-feature py-5 pt-lg-0">
-        <div class="container py-5 pt-lg-0">
-            <div class="row gx-0">
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
-                                <i class="fa fa-times text-primary"></i>
-                            </div>
-                            <div class="ps-3">
-                                <h4>No Hidden Cost</h4>
-                                <span>Clita erat ipsum lorem sit sed stet duo justo</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
-                                <i class="fa fa-users text-primary"></i>
-                            </div>
-                            <div class="ps-3">
-                                <h4>Dedicated Team</h4>
-                                <span>Clita erat ipsum lorem sit sed stet duo justo</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
-                                <i class="fa fa-phone text-primary"></i>
-                            </div>
-                            <div class="ps-3">
-                                <h4>24/7 Available</h4>
-                                <span>Clita erat ipsum lorem sit sed stet duo justo</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Top Feature End -->
+	</head>
+	<body>
+
+	<div class="fh5co-loader"></div>
+
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-2">
+					<div id="fh5co-logo"><a href="index.html">L&J<strong></strong></a></div>
+				</div>
+				<div class="col-xs-10 text-right menu-1">
+					<ul>
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="#hf5co-confirm-invite">RSVP</a></li>
+						<li><a href="#fh5co-on-the-day">On the Day</a></li>
+						<li><a href="#fh5co-travel">Travel</a></li>
+						<li><a href="#fh5co-accommodation">Accommodation</a></li>
+						<li><a href="#fh5co-activities">Excursions</a></li>
+						<li><a href="#fh5co-recommendations">Food & Drink</a></li>
+						<li><a href="#fh5co-faq">FAQ</a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</nav>
+
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/leti-jan-3-chopped.jpeg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t">
+						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<h1>Leti &amp; Ján</h1>
+							<h2>We Are Getting Married!</h2>
+							<div class="simply-countdown simply-countdown-one"></div>
+							<!-- <p><a href="#" class="btn btn-default btn-sm">Save the date</a></p> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="fh5co-couple">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<h2>Hello!</h2>
+					<h3>June 27th, 2025 Baiona, Spain</h3>
+					<p>We can't wait to share our special day with you.</p>
+				</div>
+			</div>
+			<div class="couple-wrap animate-box">
+				<div class="couple-half">
+					<div class="groom">
+						<img src="images/groom.jpg" alt="groom" class="img-responsive">
+					</div>
+					<!-- <div class="desc-groom">
+						<h3>Joefrey Mahusay</h3>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+					</div> -->
+				</div>
+				<!-- <p class="heart text-center"><i class="icon-heart2"></i></p> -->
+				<div class="couple-half">
+					<div class="bride">
+						<img src="images/bride.jpg" alt="groom" class="img-responsive">
+					</div>
+					<!-- <div class="desc-bride">
+						<h3>Sheila Mahusay</h3>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+					</div> -->
+				</div>
+			</div>
+		</div>
+	</div>
 
 
-    <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5 align-items-end">
-                <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid rounded" data-wow-delay="0.1s" src="img/about.jpg">
-                </div>
-                <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
-                    <h1 class="display-1 text-primary mb-0">25</h1>
-                    <p class="text-primary mb-4">Year of Experience</p>
-                    <h1 class="display-5 mb-4">We Make Your Home Like A Garden</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <a class="btn btn-primary py-3 px-4" href="">Explore More</a>
-                </div>
-                <div class="col-lg-3 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="row g-5">
-                        <div class="col-12 col-sm-6 col-lg-12">
-                            <div class="border-start ps-4">
-                                <i class="fa fa-award fa-3x text-primary mb-3"></i>
-                                <h4 class="mb-3">Award Winning</h4>
-                                <span>Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna</span>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-12">
-                            <div class="border-start ps-4">
-                                <i class="fa fa-users fa-3x text-primary mb-3"></i>
-                                <h4 class="mb-3">Dedicated Team</h4>
-                                <span>Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
+	<div id="fh5co-confirm-invite" class="fh5co-bg" style="background-image:url(images/leti-jan-10.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="display-tc animate-box text-center" data-animate-effect="fadeIn">
+				<h1>Are You Attending?</h1>
+				<p><a href="#" target="_blank" class="btn btn-default btn-sm">Fill Out the Form</a></p>
+			</div>
+		</div>
+	</div>
 
 
-    <!-- Facts Start -->
-    <div class="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-1.jpg">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
-                    <span class="fs-5 fw-semi-bold text-light">Happy Clients</span>
-                </div>
-                <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
-                    <span class="fs-5 fw-semi-bold text-light">Garden Complated</span>
-                </div>
-                <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
-                    <span class="fs-5 fw-semi-bold text-light">Dedicated Staff</span>
-                </div>
-                <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
-                    <h1 class="display-4 text-white" data-toggle="counter-up">1234</h1>
-                    <span class="fs-5 fw-semi-bold text-light">Awards Achieved</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Facts End -->
+<!--
+	<div class="row">
+		<div class="display-t">
+			<div class="display-tc">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="col-md-6 col-sm-6 text-center">
+						<div class="event-wrap animate-box">
+							<h3>Main Ceremony</h3>
+							<div class="event-col">
+								<i class="icon-clock"></i>
+								<span>4:00 PM</span>
+								<span>6:00 PM</span>
+							</div>
+							<div class="event-col">
+								<i class="icon-calendar"></i>
+								<span>Monday 28</span>
+								<span>November, 2016</span>
+							</div>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 text-center">
+						<div class="event-wrap animate-box">
+							<h3>Wedding Party</h3>
+							<div class="event-col">
+								<i class="icon-clock"></i>
+								<span>7:00 PM</span>
+								<span>12:00 AM</span>
+							</div>
+							<div class="event-col">
+								<i class="icon-calendar"></i>
+								<span>Monday 28</span>
+								<span>November, 2016</span>
+							</div>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
 
+	<div id="fh5co-on-the-day" class="fh5co-section-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<!-- <span>xx</span> -->
+					<h2>On the Day!</h2>
+					<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline animate-box">
+						<li class="animate-box">
+							<div class="timeline-badge" style="background-image:url(images/venue-church.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Wedding Ceremony</h3>
+								</div>
+								<div class="timeline-body">
 
-    <!-- Features Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="fs-5 fw-bold text-primary">Why Choosing Us!</p>
-                    <h1 class="display-5 mb-4">Few Reasons Why People Choosing Us!</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <a class="btn btn-primary py-3 px-4" href="">Explore More</a>
-                </div>
-                <div class="col-lg-6">
-                    <div class="row g-4 align-items-center">
-                        <div class="col-md-6">
-                            <div class="row g-4">
-                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
-                                    <div class="text-center rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
-                                        <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                                            <i class="fa fa-check fa-3x text-primary"></i>
-                                        </div>
-                                        <h4 class="mb-0">100% Satisfaction</h4>
-                                    </div>
-                                </div>
-                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
-                                    <div class="text-center rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
-                                        <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                                            <i class="fa fa-users fa-3x text-primary"></i>
-                                        </div>
-                                        <h4 class="mb-0">Dedicated Team</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 wow fadeIn" data-wow-delay="0.7s">
-                            <div class="text-center rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
-                                <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                                    <i class="fa fa-tools fa-3x text-primary"></i>
-                                </div>
-                                <h4 class="mb-0">Modern Equipment</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Features End -->
-
-
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="fs-5 fw-bold text-primary">Our Services</p>
-                <h1 class="display-5 mb-5">Services That We Offer For You</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item rounded d-flex h-100">
-                        <div class="service-img rounded">
-                            <img class="img-fluid" src="img/service-1.jpg" alt="">
-                        </div>
-                        <div class="service-text rounded p-5">
-                            <div class="btn-square rounded-circle mx-auto mb-3">
-                                <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
-                            </div>
-                            <h4 class="mb-3">Landscaping</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item rounded d-flex h-100">
-                        <div class="service-img rounded">
-                            <img class="img-fluid" src="img/service-2.jpg" alt="">
-                        </div>
-                        <div class="service-text rounded p-5">
-                            <div class="btn-square rounded-circle mx-auto mb-3">
-                                <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon">
-                            </div>
-                            <h4 class="mb-3">Pruning plants</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item rounded d-flex h-100">
-                        <div class="service-img rounded">
-                            <img class="img-fluid" src="img/service-3.jpg" alt="">
-                        </div>
-                        <div class="service-text rounded p-5">
-                            <div class="btn-square rounded-circle mx-auto mb-3">
-                                <img class="img-fluid" src="img/icon/icon-5.png" alt="Icon">
-                            </div>
-                            <h4 class="mb-3">Irrigation & Drainage</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item rounded d-flex h-100">
-                        <div class="service-img rounded">
-                            <img class="img-fluid" src="img/service-4.jpg" alt="">
-                        </div>
-                        <div class="service-text rounded p-5">
-                            <div class="btn-square rounded-circle mx-auto mb-3">
-                                <img class="img-fluid" src="img/icon/icon-4.png" alt="Icon">
-                            </div>
-                            <h4 class="mb-3">Garden Maintenance </h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item rounded d-flex h-100">
-                        <div class="service-img rounded">
-                            <img class="img-fluid" src="img/service-5.jpg" alt="">
-                        </div>
-                        <div class="service-text rounded p-5">
-                            <div class="btn-square rounded-circle mx-auto mb-3">
-                                <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
-                            </div>
-                            <h4 class="mb-3">Green Technology</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item rounded d-flex h-100">
-                        <div class="service-img rounded">
-                            <img class="img-fluid" src="img/service-6.jpg" alt="">
-                        </div>
-                        <div class="service-text rounded p-5">
-                            <div class="btn-square rounded-circle mx-auto mb-3">
-                                <img class="img-fluid" src="img/icon/icon-2.png" alt="Icon">
-                            </div>
-                            <h4 class="mb-3">Urban Gardening</h4>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
-
-
-    <!-- Quote Start -->
-    <div class="container-fluid quote my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-2.jpg">
-        <div class="container py-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-7">
-                    <div class="bg-white rounded p-4 p-sm-5 wow fadeIn" data-wow-delay="0.5s">
-                        <h1 class="display-5 text-center mb-5">Get A Free Quote</h1>
-                        <div class="row g-3">
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control bg-light border-0" id="gname" placeholder="Gurdian Name">
-                                    <label for="gname">Your Name</label>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control bg-light border-0" id="gmail" placeholder="Gurdian Email">
-                                    <label for="gmail">Your Email</label>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control bg-light border-0" id="cname" placeholder="Child Name">
-                                    <label for="cname">Your Mobile</label>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control bg-light border-0" id="cage" placeholder="Child Age">
-                                    <label for="cage">Service Type</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control bg-light border-0" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12 text-center">
-                                <button class="btn btn-primary py-3 px-4" type="submit">Submit Now</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Quote End -->
+									<div class="w-100 text-center">
+										<div class="display-t">
+											<div class="display-tc animate-box" data-animate-effect="fadeIn">
+												<div class="mx-auto d-block">
+													<i class="icon-clock"></i>17:00</div>
+												<div class="mx-auto d-block">
+													<i class="bi-geo-alt-fill"></i><a href="https://maps.app.goo.gl/iE4R26DV78dD5MZBA" target="_blank">Rúa Santa Liberata, 3, 36300, Baiona</a>
+												</div>
+												<div>
+													<add-to-calendar-button
+														name="Leti and Ján: Ceremony"
+														startDate="2025-06-27"
+														startTime="17:00"
+														endTime="19:00"
+														timeZone="Europe/Paris"
+														location="World Wide Web"
+														description="Wedding Ceremony: Leti and Ján. Please arrive 15 minutes early, 16:45. Note that Spain is 1 hour ahead of the UK."
+														options="'Apple','Google','iCal','Outlook.com','Microsoft 365','Microsoft Teams','Yahoo'"
+														size="1"
+														lightMode="bodyScheme">
+													</add-to-calendar-button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge" style="background-image:url(images/venue-reception.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Wedding Reception</h3>
+								</div>
+								<div class="timeline-body">
+									<div><i class="icon-clock"></i>19:00 until 04:00 (+1)</div>
+									<div>
+										<i class="bi-geo-alt-fill"></i>
+										<a href="https://maps.app.goo.gl/2Wtxi64Smtr6b1Df7" target="_blank">Camiño de Cea, 1, 36350 Nigrán</a>
+									</div>
+								</div>
+							</div>
+						</li>
+			    	</ul>
+				</div>
+			</div>
+			<div class="row feature-left row-bottom-padded-md animate-box col-md-8">
+				<div class="embed-responsive embed-responsive-custom">
+					<iframe class="embed-responsive-item" src="https://www.google.com/maps/d/embed?mid=1k-KN1byJZMFnfqlP2B0tPUX_yYJGJDM&ehbc=2E312F&noprof=1" allowfullscreen></iframe>
+				</div>
+				<br>
+			</div>
+		</div>
+	</div>
 
 
 
+	<div id="fh5co-travel" class="fh5co-section">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 fh5co-heading">
+					<h2>Travel</h2>
+					<p>The best way to get around Galicia is to rent a car at one of the airports or using local taxis.
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-aircraft"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Flying In</h3>
+							<div>
+								<p>If you are flying in, you have different airports to choose from depending where you are coming from:</p>
+								<ol>
+									<li>Vigo (VGO) - 20 mins to Baiona</li>
+									<li>Santiago de Compostela (SCQ) - 75 mins to Baiona</li>
+									<li>Oporto(OPO) - 90 mins to Baiona</li>
+								</ol>
+								<p>
+									From the airport you can take a taxi or there are buses available (although check timetables). You can also hire a car at the airport which will give you flexibility to move around and explore the area.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="bi-train-front"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Train</h3>
+							<p>If you are travelling from Madrid, or elsewhere in Spain, you can arrive to the centre of Vigo with the high-speed train.</p>
+						</div>
+					</div>
+
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="bi-car-front"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Car Rental</h3>
+							<p>There are several car rental options, and the taxi services are relatively inexpensive.</p>
+						</div>
+					</div>
+
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="bi-taxi-front"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Taxi Services</h3>
+								<p>
+									To move around with a taxi, please use one of the numbers below to book your trip (all accept card payments). Unfortunately, Uber and Bolt have low availability in the region.
+								<p>
+								<ol>
+									<li>Carlos: <a href="tel:+34 650 957 073">+34 650 957 073</a></li>
+									<li>Yaneth: <a href="tel:+34 662 441 622">+34 662 441 622</a></li>
+									<li>Domingo: <a href="tel:+34 606 458 179">+34 606 458 179</a></li>
+									<li>José Manuel: <a href="tel:+34 678 839 221">+34 678 839 221</a></li>
+									<li>Manuel: <a href="tel:+34 617 887 221">+34 617 887 221</a></li>
+								</ol>
+						</div>
+					</div>
+
+				</div>
+			</div>
 
 
+		</div>
+	</div>
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+	<div id="fh5co-accommodation" class="fh5co-section-gray">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 fh5co-heading">
+					<h2>Accommodation</h2>
+					<p>
+						We recommend either booking a hotel or an AirBnB. The map below shows a few hotels that we recommend and also their locations with respect to the church and wedding venue.
+					</p>
+				</div>
+			</div>
+			<div class="row feature-left row-bottom-padded-md animate-box col-md-12">
+				<h3>Hotels Map</h3>
+				<div class="embed-responsive embed-responsive-custom">
+					<iframe class="embed-responsive-item" src="https://www.google.com/maps/d/embed?mid=12BeF__vLogjnDrY7VVS8S6wXVyK3hBQ&ehbc=2E312F&noprof=1" allowfullscreen></iframe>
+				</div>
+				<br>
+			</div>
+		</div>
+	</div>
 
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/parallax/parallax.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
+	<div id="fh5co-activities" class="fh5co-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<span>Recommendations</span>
+					<h2>Activities</h2>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-md">
+				<div class="col-md-12">
+					<ul id="fh5co-gallery-list">
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+						<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-1.jpg); ">
+						<a href="images/gallery-1.jpg">
+							<div class="case-studies-summary">
+								<span>One-day Excursion</span>
+								<h2>Cíes Islands</h2>
+							</div>
+						</a>
+					</li>
+					<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-2.jpg); ">
+						<a href="#" class="color-2">
+							<div class="case-studies-summary">
+								<span>Beach</span>
+								<h2>Playa America</h2>
+							</div>
+						</a>
+					</li>
+					<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-4.jpg); ">
+						<a href="#" class="color-4">
+							<div class="case-studies-summary">
+								<span>Ancient Pilgrimate City</span>
+								<h2>Santiago de Compostella</h2>
+							</div>
+						</a>
+					</li>
 
-</body>
+						<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-5.jpg); ">
+							<a href="#" class="color-3">
+								<div class="case-studies-summary">
+									<span>A city in Portugal</span>
+									<h2>Tui</h2>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-recommendations" class="fh5co-section-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<span>Recommendations</span>
+					<h2>Bars and Restaurants</h2>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-faq" class="fh5co-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<span>FAQ</span>
+					<h2>Questions and Answers</h2>
+				</div>
+			</div>
+			<div class="col-md-8 col-md-offset-2">
+
+				<b>When is the RSVP deadline?</b><br>
+				Please RSVP by April 15th, so we can have an accurate headcount. :)
+				<br><br>
+
+				<b>Can I bring a date?</b><br>
+				Please check directly before confirming a +1!
+				<br><br>
+
+				<b>What should I wear?</b><br>
+				Gentlemen: we recommend you wear a suit in dark or bluish tones.
+				<br><br>
+				Ladies: in reverence for the Sacrament, choose an elegant and respectful dress cut. The protocol indicates that evening weddings are for long or midi dresses. We suggest wearing summery colours, with the exception of white or similar shades.
+				<br><br>
+
+				<b>Whom should I call with questions?</b><br>
+				Please contact either Jan or Leti if you have any questions.
+				<br><br>
+
+
+				<b>Is there transportation being provided between reception and hotels?</b><br>
+				TBC
+				<br><br>
+
+				<b>I am coming from out of town. Where should I stay?</b><br>
+				Please have a look at the suggested hotels. There is a large selection of hotels and airbnbs between Baiona and Nigran that you can choose from.
+				<br><br>
+
+				<b>Is there parking space?</b><br>
+				There is limited parking space outside the church. During the reception, the vanue has enough parking for everyone.
+				<br><br>
+			</div>
+		</div>
+	</div>
+
+	<footer id="fh5co-footer" role="contentinfo">
+		<div class="container">
+
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; 2024</small>
+						<small class="block">Adapted from a <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> template</small>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+
+	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
+	<script src="js/simplyCountdown.js"></script>
+
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	<script>
+	var d = new Date(2025, 6, 27, 15, 0)
+    simplyCountdown('.simply-countdown-one', {
+        year: d.getFullYear(),
+        month: d.getMonth(),
+        day: d.getDate(),
+		enableUtc: true,
+
+    });
+	</script>
+	</body>
 </html>
+
