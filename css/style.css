@@ -226,12 +226,12 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event,
 .fh5co-bg {
   background-size: cover;
+  padding-top: 500px;
+  padding-bottom: 500px;
   background-repeat: no-repeat;
   position: relative;
   background-position: center center;
   width: 100%;
-  padding-bottom: 10em;
-  padding-top: 10em;
   float: left;
   position: relative;
 }
@@ -1089,7 +1089,7 @@ form label {
 #fh5co-recommendations,
 #fh5co-fag,
 .fh5co-section {
-  padding: 7em 0;
+  padding: 10em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -1114,7 +1114,13 @@ form label {
 }
 
 .fh5co-section-gray {
+  padding: 7em 0;
   background: rgba(0, 0, 0, 0.04);
+}
+@media screen and (max-width: 768px) {
+  .fh5co-section-gray {
+    padding: 3em 0;
+  }
 }
 
 .couple-wrap {
