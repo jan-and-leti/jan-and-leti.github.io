@@ -1,5 +1,6 @@
-$font-primary: 'Work Sans', Arial, sans-serif;
-$font-secondary: 'Sacramento', Arial, serif;
+$font-primary: 'Work Sans', sans-serif;
+$font-secondary: 'Great Vibes', Arial, serif;
+// $font-secondary: 'Sacramento', Arial, serif;
 // $font-secondary: 'Comic Neue', Arial, serif;
 
 
@@ -26,7 +27,6 @@ $brand-bg-color: $brand-white;
 
 $input-border-focus:  $brand-primary !default;
 $form-group-margin-bottom:       30px !default;
-
 
 
 // Mixin
@@ -117,6 +117,8 @@ body {
 	line-height: 1.7;
 	color: #828282;
 	background: #fff;
+	overflow-x: hidden;
+
 }
 #page {
 	position: relative;
@@ -174,6 +176,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: $brand-primary;
 }
 
+
 .fh5co-nav {
 	position: absolute;
 	top: 0;
@@ -185,12 +188,24 @@ h1, h2, h3, h4, h5, h6, figure {
 	@media screen and (max-width: $screen-sm) {
 		padding: 20px 0;
 	}
-	#fh5co-logo {
+	.fh5co-logo {
 		font-size: 40px;
 		margin: 0;
 		padding: 0;
 		line-height: 40px;
 		font-family: $font-secondary;
+		@media screen and (max-width: $screen-sm) {
+			font-size: 30px;
+
+		}
+
+		.ampersand-style {
+			// font-family: Arial;
+			font-size: 30px;
+			@media screen and (max-width: $screen-sm) {
+				font-size: 20px;
+			}
+		}
 	}
 	a {
 		padding: 5px 10px;
@@ -361,7 +376,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			margin: 0;
 			padding: 0;
 			color: rgba(255,255,255,1);
-			font-weight: bold;
+			font-weight: 600;
 		}
 		h1 {
 			margin-bottom: 0px;
@@ -385,6 +400,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 	}
 }
+
 
 .fh5co-video {
 	height: 450px;
@@ -447,6 +463,15 @@ h1, h2, h3, h4, h5, h6, figure {
 	background-repeat: no-repeat;
 	position: relative;
 	width: 100%;
+
+	.ampersand-style {
+		// font-family: Arial;
+		font-size: 50px;
+		@media screen and (max-width: $screen-sm) {
+			font-size: 20px;
+		}
+	}
+
 	.overlay {
 		z-index:0;
 		position: absolute;
@@ -1103,7 +1128,7 @@ form {
 	width: 100%;
 	margin: auto;
 
-	@include border-radius(10%);
+	@include border-radius(50%);
 	width: 270px;
 	height: 270px;
 	img {
@@ -1193,80 +1218,6 @@ form {
 	}
 }
 
-#fh5co-testimonial {
-	.wrap-testimony{
-		position: relative;
-		.testimony-slide{
-			text-align: center;
-			span{
-				font-size: 12px;
-				text-transform: uppercase;
-				letter-spacing: 2px;
-				font-weight: 700;
-				display: block;
-
-				a.twitter{
-					color: $brand-primary;
-					font-weight: 300;
-				}
-			}
-
-			figure{
-				margin-bottom: 10px;
-				@include inline-block;
-				width: 100px;
-				height: 100px;
-				img {
-					width: 100px;
-					height: 100px;
-					@include border-radius(50%);
-				}
-			}
-
-			blockquote{
-				border: none;
-				margin: 30px auto;
-				width: 50%;
-				position: relative;
-
-
-				@include border-radius(4px);
-
-				@media screen and (max-width: $screen-md) {
-					width: 100%;
-				}
-
-				p{
-					font-style: italic;
-					color: #8f989f;
-					font-size: 20px;
-					line-height: 1.6em;
-				}
-			}
-
-			&.active{
-				display: block;
-			}
-		}
-
-		.arrow-thumb{
-			position: absolute;
-			top: 40%;
-			display: block;
-			width: 100%;
-
-			a{
-				font-size: 32px;
-				color: #dadada;
-
-				&:hover, &:focus, &:active{
-					text-decoration: none;
-				}
-			}
-
-		}
-	}
-}
 
 .feature-left {
 	float: left;
