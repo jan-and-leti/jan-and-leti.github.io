@@ -15,8 +15,24 @@
 	    	}
 	    }
 		});
-
 	};
+
+	// create a function that will react to clicking on <a> element when 'body' element has offcanvas class
+	// and remove offcanvas class from 'body' element
+	var offcanvasMenuClick = function() {
+		$('body').on('click', "#fh5co-offcanvas", function(event){
+			// if 'body' element has class 'overflow offcanvas' remove it
+			if ( $('body').hasClass('offcanvas') ) {
+				$('body').removeClass('offcanvas');
+				$('.js-fh5co-nav-toggle').removeClass('active');
+			}
+			// toggle class active on 'this' element
+			// event.preventDefault();
+		});
+	};
+
+
+
 
 	var offcanvasMenu = function() {
 
@@ -217,6 +233,7 @@
 		mobileMenuOutsideClick();
 		parallax();
 		offcanvasMenu();
+		offcanvasMenuClick();
 		burgerMenu();
 		contentWayPoint();
 		dropdown();
