@@ -397,7 +397,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height: 900px;
+  height: 1000px;
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -427,7 +427,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    height: 600px;
+    height: 550px;
   }
 }
 .fh5co-cover .display-t,
@@ -1224,15 +1224,19 @@ form label {
   color: #5d5d5d;
 }
 
+.long-text-box {
+  margin-bottom: 10px;
+}
+
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: 2em;
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
 }
 .fh5co-heading h2 {
   font-size: 60px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   line-height: 1.5;
   font-weight: bold;
   color: #5897d5;
